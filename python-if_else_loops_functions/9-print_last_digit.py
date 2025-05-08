@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-def print_last_digit(str):
-    result = ""
-    for char in str:
-        if ord(char) >= 97 and ord(char) <= 122:
-            result += chr(ord(char) - 32)
-        else:
-            result += char
-        print("{}".format(result))
+def print_last_digit(number):
+    last = abs(number) % 10
+    print(last, end="")
+    return last
