@@ -5,7 +5,7 @@ if __name__ == "__main__":
     argv = sys.argv
     argc = len(argv) - 1
 
-    if argv == 0:
+    if argc == 0:
         print("0 arguments.")
     elif argc == 1:
         print("1 argument:")
