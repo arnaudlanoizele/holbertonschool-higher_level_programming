@@ -34,4 +34,3 @@ def text_indentation(text):
 
     if start < len(text):
         print(text[start:].rstrip(), end="")
-        
