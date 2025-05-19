@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 '''
-this module provides a Square class defining a square
+This module provides a single class defining a square
 '''
 
 
 class Square:
     '''
-    This class defines a square based on an atribute named size.
+    This class defines a square based on an attribute named size.
     Size must be an int and positive.
     Size is private to allow more control of square.
-    
+
     Args:
         size (int): The size of the square, must be positive
 
