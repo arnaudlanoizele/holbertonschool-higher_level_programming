@@ -1,11 +1,11 @@
 #!/ust/bin/python3
 """
-Define a class Square with no attributes or methods.
+This module provides a single class defining a square.
 """
 
 class Square:
     """
-    An empty class that defines a square.
+    This is a blueprint of a class that defines a square.
 
     Args:
         None
