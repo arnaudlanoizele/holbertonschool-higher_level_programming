@@ -1,23 +1,23 @@
 #!/usr/bin/python3
 '''
-This module provides a single class defining a square
+This module provides a single class defining a square.
 '''
 
 
 class Square:
     '''
-    This class definies a square based on its size
-    Size must be an integer and positive
-    
+    This class defines a square based on its size.
+    Size must be an integer and positive.
+
     Args:
         size (int): The size of the square, must be positive
 
-    Attributes:
+    Attribute:
                 size (int): The size of the square, must be positive
     '''
     def __init__(self, size=0):
         if not isinstance(size, int):
-            raise TypeError("size must be integer")
+            raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
         self.__size = size
@@ -33,23 +33,23 @@ class Square:
     @property
     def size(self):
         '''
-        This method is a property getterthat return the private
-        size attribute
+        This method is a property getter that return the private
+        size attribute.
         '''
         return self.__size
 
     @size.setter
     def size(self, value):
         '''
-        This method is a setter that modifies the size of the square
-        
+        This method is a setter that modifies the size of the square.
+
         Args:
             value (int): The new size of the square, must be positive
         '''
         if not isinstance(value, int):
-            raise TypeError("size must be integer")
+            raise TypeError("size must be an integer")
         if value < 0:
-            raise ValueError("size ust be >= 0")
+            raise ValueError("size must be >= 0")
 
         self.__size = value
 
