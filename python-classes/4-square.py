@@ -1,19 +1,19 @@
 #!/usr/bin/python3
 '''
-Thie module a single class defining a square
+This module provides a single class defining a square.
 '''
 
 
 class Square:
     '''
-    This class defines a square based on its size
-    Size must be an integer and positive
+    This class defines a square based on its size.
+    Size must be an integer and positive.
 
     Args:
         size (int): The size of the square, must be positive
 
     Attribute:
-                size (int): The size of the square must be positive
+                size (int): The size of the square, must be positive
     '''
     def __init__(self, size=0):
         if not isinstance(size, int):
@@ -25,22 +25,23 @@ class Square:
     def area(self):
         '''
         This method will calculate the area of the square
-        based on the formul : area = size*2
+        based on the formula : area = size^2
         '''
         area = self.__size**2
         return area
+
     @property
     def size(self):
         '''
         This method is a property getter that return the private
-        size attribute
+        size attribute.
         '''
         return self.__size
 
     @size.setter
     def size(self, value):
         '''
-        This method is a setter that modifies the size of the square
+        This method is a setter that modifies the size of the square.
 
         Args:
             value (int): The new size of the square, must be positive
