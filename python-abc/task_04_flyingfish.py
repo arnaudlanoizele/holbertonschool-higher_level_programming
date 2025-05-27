@@ -9,11 +9,11 @@ class Fish:
         print("The fish is swimming")
 
     def habitat(self):
-        print("The fish lives oin water")
+        print("The fish lives in water")
 
 class Bird:
     def fly(self):
-        print("The bird is flyiong")
+        print("The bird is flying")
 
     def habitat(self):
         print("The bird lives in the sky")
