@@ -1,4 +1,4 @@
-#!/usr/bin/pytohn3
+#!/usr/bin/python3
 """Module for appending to a text file"""
 
 
