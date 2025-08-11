@@ -1,4 +1,4 @@
-#!/usr/bin/pytihn3
+#!/usr/bin/python3
 """Module for JSON string to object"""
 
 
