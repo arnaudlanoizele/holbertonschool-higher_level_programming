@@ -3,7 +3,7 @@
 
 
 def write_file(filename="", text=""):
-    """Writes a UTF-8 encoded text to a file and returns 
+    """Writes a UTF-8 encoded text to a file and returns
     the number of characters written
 
     Args:
