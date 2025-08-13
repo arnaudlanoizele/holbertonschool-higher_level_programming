@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module to load an object from a JSON file"""
+"""Module for loading from JSON file"""
 import json
 
 def load_from_json(filename):
