@@ -14,4 +14,4 @@ if os.path.exists(filename):
     my_list = load_from_json_file(filename)
 
 my_list.extend(sys.argv[1])
-save_to_json_file(my_fist, filename)
+save_to_json_file(my_list, filename)
