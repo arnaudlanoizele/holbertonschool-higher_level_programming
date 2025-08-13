@@ -3,6 +3,6 @@
 
 
 def load_from_json(filename):
-    """Creates an object from a JSON file"""
+    """Function that creates an object from a JSON file"""
     with open(filename) as f:
         return json.load(f)
