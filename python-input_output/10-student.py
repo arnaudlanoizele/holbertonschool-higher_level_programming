@@ -16,6 +16,6 @@ class Student:
             for attr in sorted(attrs):
                 if hasattr(self, attr):
                     my_dict[attr] = getattr(self, attr)
-                return my_dict
-            else:
-                return self.__dict__
+            return my_dict
+        else:
+            return self.__dict__
