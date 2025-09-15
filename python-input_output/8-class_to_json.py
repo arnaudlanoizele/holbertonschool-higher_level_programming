@@ -1,4 +1,5 @@
-#!/user/bin/python3
+#!/usr/bin/python3
+
 """
 Description : This module contain a script that returns the dictionnary
 description with simple data structure (List, dictionary, string, integer)
